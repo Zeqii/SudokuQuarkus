@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
 /**
- * Tests unitarios para comprobar la funcionalidad de los dos casos documentados
  */
 @QuarkusTest
 public class SolutionTest {
@@ -16,7 +15,6 @@ public class SolutionTest {
     private final SudokuValidatorResource sudokuValidator = new SudokuValidatorResource();
     private final FibonacciResource fibonacciResource = new FibonacciResource();
 
-    // =================== TESTS PARA SUDOKU VALIDATOR ===================
 
     @Test
     @DisplayName("Ejemplo 1 - Sudoku válido debe retornar true")
@@ -48,7 +46,6 @@ public class SolutionTest {
     @Test
     @DisplayName("Ejemplo 2 - Sudoku inválido debe retornar false")
     public void testInvalidSudokuExample2() {
-        // Ejemplo 2 del documento - tablero inválido (5 modificado a 8)
         String[][] invalidBoard = {
                 {"8", "3", "", "", "7", "", "", "", ""},
                 {"6", "", "", "1", "9", "8", "", "", ""},  // Aquí hay dos 8s en la fila
