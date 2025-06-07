@@ -1,3 +1,6 @@
+#Link de Repo Api SEGUNDA SERIE
+https://github.com/Zeqii/QuarkusServicios/tree/main
+
 # SudokuQuarkus API
 ![Resultados de Tests](Captura%20de%20pantalla%202025-06-07%20082559.png)
 
